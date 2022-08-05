@@ -234,7 +234,7 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-option/-/helper-validator-option-7.18.6.tgz#bf0d2b5a509b1f336099e4ff36e1a63aa5db4db8"
   integrity sha512-XO7gESt5ouv/LRJdrVjkShckw6STTaB7l9BrpBaAHDeF5YZT+01PCwmR0SJHnkW6i8OwW/EVWRShfi4j2x+KQw==
 
-"@babel/helper-wrap-function@^7.18.9":
+"@babel/helper-wrap-function@^7.18.9"
   version "7.18.11"
   resolved "https://registry.yarnpkg.com/@babel/helper-wrap-function/-/helper-wrap-function-7.18.11.tgz#bff23ace436e3f6aefb61f85ffae2291c80ed1fb"
   integrity sha512-oBUlbv+rjZLh2Ks9SKi4aL7eKaAXBWleHzU89mP0G6BMUlRxSckk9tSIkgDGydhgFxHuGSlBQZfnaD47oBEB7w==
@@ -261,6 +261,7 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     chalk "^2.0.0"
     js-tokens "^4.0.0"
+
 
 "@babel/parser@^7.18.10", "@babel/parser@^7.18.11":
   version "7.18.11"
@@ -889,10 +890,12 @@
     "@babel/parser" "^7.18.10"
     "@babel/types" "^7.18.10"
 
+
 "@babel/traverse@^7.18.10", "@babel/traverse@^7.18.11", "@babel/traverse@^7.18.9":
   version "7.18.11"
   resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.18.11.tgz#3d51f2afbd83ecf9912bcbb5c4d94e3d2ddaa16f"
   integrity sha512-TG9PiM2R/cWCAy6BPJKeHzNbu4lPzOSZpeMfeNErskGpTJx6trEvFaVCbDvpcxwy49BKWmEPwiW8mrysNiDvIQ==
+
   dependencies:
     "@babel/code-frame" "^7.18.6"
     "@babel/generator" "^7.18.10"
@@ -900,6 +903,7 @@
     "@babel/helper-function-name" "^7.18.9"
     "@babel/helper-hoist-variables" "^7.18.6"
     "@babel/helper-split-export-declaration" "^7.18.6"
+
     "@babel/parser" "^7.18.11"
     "@babel/types" "^7.18.10"
     debug "^4.1.0"
@@ -1916,9 +1920,11 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001370:
+
   version "1.0.30001374"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001374.tgz#3dab138e3f5485ba2e74bd13eca7fe1037ce6f57"
   integrity sha512-mWvzatRx3w+j5wx/mpFN5v5twlPrabG8NqX2c6e45LCpymdoGqNvRkRutFUqpRTXKFQFNQJasvK0YT7suW6/Hw==
+
 
 case-sensitive-paths-webpack-plugin@^2.2.0:
   version "2.4.0"
@@ -3982,9 +3988,11 @@ is-color-stop@^1.0.0:
     rgba-regex "^1.0.0"
 
 is-core-module@^2.9.0:
+
   version "2.10.0"
   resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.10.0.tgz#9012ede0a91c69587e647514e1d5277019e728ed"
   integrity sha512-Erxj2n/LDAZ7H8WNJXd9tw38GYM3dv8rk8Zcs+jJuxYTW7sozH+SS8NtrSjVL1/vpLvWi1hxy96IzjJ3EHTJJg==
+
   dependencies:
     has "^1.0.3"
 
